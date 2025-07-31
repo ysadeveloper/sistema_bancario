@@ -1,0 +1,23 @@
+# 🏦 Sistema Bancário em Python
+
+Este é um projeto simples de terminal que simula operações bancárias como **depósito**, **saque**, **exibição de extrato** e **limite de saques diários**. Ideal para fins de aprendizado de Python e lógica de programação.
+
+---
+
+## 🚀 Funcionalidades
+
+- Depósito de valores positivos
+- Saque com:
+  - Verificação de saldo
+  - Limite por operação
+  - Limite diário de saques (3 por dia)
+- Exibição de extrato com saldo atualizado
+- Interface simples via terminal
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+- Python 3.x
+
+
