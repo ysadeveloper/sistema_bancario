@@ -114,7 +114,22 @@ def main():
             saldo, extrato = depositar(saldo, extrato)
         elif opcao == "s":
             saldo, extrato, numero_saques = sacar(
-                saldo, extr
+                saldo, extrato, limite, numero_saques, LIMITE_SAQUES
+            )
+        elif opcao == "e":
+            exibir_extrato(saldo, extrato)
+        elif opcao == "nu":
+            cadastrar_usuario(usuarios)
+        elif opcao == "nc":
+            cadastrar_conta(AGENCIA, numero_conta, usuarios, contas)
+            numero_conta += 1
+        elif opcao == "q":
+            print("Obrigado por usar nosso sistema bancário!")
+            break
+        else:
+            print("Opção inválida. Por favor, tente novamente.")
 
 
+if __name__ == "__main__":
+    main()
 
